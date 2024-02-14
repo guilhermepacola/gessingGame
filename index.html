@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,700&family=Montserrat:wght@600&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo da Adivinhação</title>
+
+    <link rel="stylesheet" href="./assets/css/mobile.css">
+    <link rel="stylesheet" href="./assets/css/desktop.css">
+</head>
+<body>
+
+    <main>
+<div class="screenOne">
+    <section class="mainTitle">
+        <h1>Jogo da Adivinhação</h1>
+        <p>Adivinhe o número entre 0 e 10</p>
+    </section>
+    <form action="">
+        <div class="input--wrapper">
+            <input  id="inputNumber" type="number">
+            <button id="btnTry">TENTAR</button>
+        </div>
+    </form>
+</div>
+
+<div class="screenTwo hide">
+    <h1 class="attempsText">Acertou em 3 Tentativas</h1>
+     <button id="refreshBtn">Tentar Novamente</button>
+</div>
+    </main>
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>
